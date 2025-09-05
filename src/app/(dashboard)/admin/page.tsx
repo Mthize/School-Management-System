@@ -1,6 +1,13 @@
 import CountChart from "@/components/CountChart"
 import UserCard from "@/components/UserCard"
+<<<<<<< HEAD
 import AttendanceChart from "@/components/AttendanceChart"     
+=======
+import AttendanceChart from "@/components/AttendanceChart"
+import FinanceChart from "@/components/FinanceChart"
+import EventCalendar from "@/components/EventCalendar"
+
+>>>>>>> 14ba06a5 ((Fin): Add EventCalendar panel)
 
 const AdminPage = () => { 
   return (
@@ -30,7 +37,9 @@ const AdminPage = () => {
 
       </div>
       {/* RIGHT SIDE */}
-      <div className="w-full lg:w-1/3">r</div>
+      <div className="w-full lg:w-1/3 flex flex-col gap-8">
+        <EventCalendar />
+      </div>
     </div> 
   )
 }

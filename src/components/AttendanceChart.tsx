@@ -60,13 +60,13 @@ const AttendanceChart = () => {
           />
           <Bar
             dataKey="Present"
-            fill="#FAE27C"
+            fill="#00CFFF"   // lamaSky
             legendType="circle"
             radius={[10, 10, 0, 0]}
           />
           <Bar
             dataKey="Absent"
-            fill="#C3EBFA"
+            fill="#FFC400"   // lamaYellow
             legendType="circle"
             radius={[10, 10, 0, 0]}
           />
