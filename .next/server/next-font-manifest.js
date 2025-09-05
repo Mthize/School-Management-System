@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/ghostcipher/Development/frontend/school-management/src/app/layout\":[],\"/home/ghostcipher/Development/frontend/school-management/src/app/(dashboard)/layout\":[]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/ghostcipher/Development/frontend/school-management/src/app/(dashboard)/layout\":[],\"/home/ghostcipher/Development/frontend/school-management/src/app/layout\":[]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
