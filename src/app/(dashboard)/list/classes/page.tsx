@@ -9,7 +9,7 @@ type Class = {
   id: number;
   name: string;
   capacity: number;
-  grade: number; // fixed typo: accessorKey was "grader" but type is "grade"
+  grade: number; 
   supervisor: string;
 };
 
@@ -24,7 +24,7 @@ const columns = [
     className: "hidden md:table-cell",
   },
   {
-    header: "Grade", // fixed typo: was "Grader"
+    header: "Grade",
     accessorKey: "grade",
     className: "hidden md:table-cell",
   },
@@ -55,7 +55,7 @@ const ClassListPage = () => {
         <div className="flex items-center gap-2">
           <Link href={`/list/teachers/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-lamaSky">
-              <Image src="/view.png" alt="" width={16} height={16} />
+              <Image src="/edit.png" alt="" width={16} height={16} />
             </button>
           </Link>
           {role === "admin" && (

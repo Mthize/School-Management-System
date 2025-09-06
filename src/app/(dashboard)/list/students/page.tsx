@@ -69,7 +69,7 @@ const StudentListPage = () => {
           <p className="text-xs text-gray-500">{item.class}</p> 
         </div>
       </td>
-      <td className="hidden md:table-cell">{item.studentid}</td> 
+      <td className="hidden md:table-cell">{item.studentId}</td> 
       <td className="hidden md:table-cell">{item.grade}</td> 
       <td className="hidden md:table-cell">{item.phone}</td> 
       <td className="hidden md:table-cell">{item.address}</td>
